@@ -1,3 +1,4 @@
+#Prog02. removesuffix() remove the characters at the end of the string that matches the function parameter. Create a program that do the same functionality without using removesuffix() function.
 string = input("Enter any characters: ")
 for i in range(len(string)):
     if i == len(string) - 1 and string[i] == "e": # "e" is the parameter

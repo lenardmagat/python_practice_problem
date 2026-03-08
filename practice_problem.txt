@@ -8,3 +8,92 @@ Prog07. zfill() add zero characters at the beginning of the string to complete t
 Prog08. count() return how many time the function parameter appear in the string. Create a program that do the same functionality without using count() function.
 Prog09. index() return the first location of the function parameter in the string. Create a program that do the same functionality without using index() function.
 Prog10. rindex() return the first location of the function parameter in the string starting from the last character. Create a program that do the same functionality without using rindex() function.
+
+
+Prog01: Create a program that ask user to input 2 numbers. Print the smaller number.
+Prog02: Create a program that ask user to input 2 numbers. Print "Not Equal" when the numbers are not the same.
+Prog03: Create a program that ask user to input 2 numbers. Print the difference of the two numbers.
+Prog04: Create a program that ask user to input 2 numbers. Print the quotient of the two numbers without the decimal point
+Prog05: Create a program that ask user to input 2 numbers. Print the remainder when the first number is divided by the second number.
+Prog06: Create a program that ask user to input 10 numbers. Print the result of the first number minus all of the remaining numbers.
+Prog07: Create a program that ask user to input 10 numbers. Print how many are even numbers.
+Prog08: Create a program that print all the odd numbers starting from 0 to 100. (Use while loop)
+Prog09: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero or ending five.
+Prog10: Create a program that ask user to input 2 numbers. Print all the numbers between the two numbers.
+
+
+Prog01: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
+Prog02: Create a program that ask user to input 10 numbers. Display all numbers. For numbers with duplicate, display only the first entry.
+Prog03: Create a program that ask user to input a number, continue asking until the user input is invalid. Display "Unique" after input when the inputted number don't have duplicate. Display "Duplicate" after input when the inputted number have duplicate.
+Prog04: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the lowest number
+Prog05: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number from lowest to highest. Clue: sort() function
+
+
+Prog01: Create a program that ask user to input 10 numbers. Display all numbers that have duplicate.
+Prog02: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number with the most number of duplicate.
+Prog03: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the highest number
+Prog04: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number from highest to lowest. Clue: sort() function
+Prog05: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the average.
+
+Prog01: Create a program that ask the user to input their fullname with several space characters at the beginning. Print the input without the spaces in the beginning.
+Example:
+Input:         Juan Dela Cruz
+Output: Juan Dela Cruz
+
+Prog02: Create a program that ask the user to input a number (0-1000). Print the number in 6 digit format. Add zeros at the beginning to complete the 6 digit.
+Example:
+Input: 143
+Output: 000143
+
+Prog03: Create a program that ask the user to input their fullname. Print the input in all capital letter.
+Example:
+Input: Juan Dela Cruz
+Output: JUAN DELA CRUZ
+
+Prog04: Create a program that ask the user to input their fullname. Print the input in all lower case.
+Example:
+Input: Juan Dela Cruz
+Output: juan dela cruz
+
+Prog05: Create a program that ask the user to input their fullname in incorrect casing. Print the input in proper casing.
+Example:
+Input: jUAn DEla CrUZ
+Output: Juan Dela Cruz
+
+Prog06: Create a program that ask the user to input their fullname in incorrect casing. Print each character of the input in reverse casing.
+Example:
+Input: jUAn DEla CrUZ
+Output: JuaN deLA cRuz
+
+Prog07: Create a program that ask the user to input a complete statement. Print the number of words in the input.
+Example:
+Input: We will weather the weather whatever the weather whether we like it or not
+Output: 14
+
+Prog08: Create a program that ask the user to input their fullname. Print the number of characters in the input.
+Example:
+Input: Juan Dela Cruz
+Output: 14
+
+Prog09: Create a program that ask the user to input their fullname in incorrect casing. Print the input in pascal case.
+Example:
+Input: jUAn DEla CrUZ
+Output: JuanDelaCruz
+
+Prog10: Create a program that ask the user to input their fullname in incorrect casing. Print the input in snake case.
+Example:
+Input: jUAn DEla CrUZ
+Output: juan_dela_cruz
+
+
+gistfile1.txt
+Prog01. lstrip() remove the space characters at the beginning of the string. Create a program that do the same functionality without using lstrip() function.
+Prog02. removeprefix() remove the characters at the beginning of the string that matches the function parameter. Create a program that do the same functionality without using removeprefix() function.
+Prog03. lower() converts all characters of the string into lower case. Create a program that do the same functionality without using lower() function.
+Prog04. isupper() check if all characters of the string is on upper case. Create a program that do the same functionality without using isupper() function.
+Prog05. endswith() check if the string end part matches the function parameter. Create a program that do the same functionality without using endswith() function.
+Prog06. ljust() add space characters at the end of the string to complete the number of characters specifies in function parameter. Create a program that do the same functionality without using ljust() function.
+Prog07. center() add space characters at the beginning and at the end of the string to print the string at the center. Create a program that do the same functionality without using center() function.
+Prog08. swapcase() reverse the casing of each of the character of the string. Create a program that do the same functionality without using swapcase() function.
+Prog09. capitalize() makes the first letter of the string, capital letter. And all other letter in small case. Create a program that do the same functionality without using capitalize() function.
+Prog10. title() makes all first letter of each word in the string, capital letter. And all other letter in small case. Create a program that do the same functionality without using title() function.

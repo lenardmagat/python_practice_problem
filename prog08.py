@@ -1,3 +1,4 @@
+#Prog08. count() return how many time the function parameter appear in the string. Create a program that do the same functionality without using count() function.
 def c_count(string, parameter):
     parameter_match = 0
     for i in range(len(string)):
