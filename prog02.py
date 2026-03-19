@@ -4,7 +4,7 @@ for i in range(len(string)):
     if i == len(string) - 1 and string[i] == "e": # "e" is the parameter
         break
     print(string[i], end="")
-    print()
+print()
 
 #or function type
 def remove_last(string, parameter):
